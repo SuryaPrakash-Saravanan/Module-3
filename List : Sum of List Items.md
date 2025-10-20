@@ -10,9 +10,13 @@ To write a Python program that calculates the **sum of all elements** in a list.
 
 ## 🧾 Program
 ```
-list = [1,2,3,4,5,6]
-print(list)
-print(sum(list))
+def createlist(a):
+l = []
+  for i in range(a):
+  if i%2!=0:
+      l.append(i)
+print(l)
+print(sum(l))
 ```
 ## Output
 <img width="773" height="265" alt="Screenshot (75)" src="https://github.com/user-attachments/assets/71608061-c9f0-44b8-bcc5-6ec338a22c87" />
