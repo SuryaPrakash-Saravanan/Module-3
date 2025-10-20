@@ -13,7 +13,7 @@ To write a Python program to check whether the string `"google"` is a **palindro
 
 ## 🧾 Program
 ```
-a = google
+a = "google"
 if a==a[::-1]:
    print("Palindrome")
 else:
